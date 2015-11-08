@@ -1,0 +1,17 @@
+{
+  "name": "create-app-component",
+  "version": "1.0.0",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "npm run tsc & npm run serve",
+    "serve": "live-server --open=src"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.45",
+    "systemjs": "0.19.5"
+  },
+  "devDependencies": {
+    "live-server": "0.8.1",
+    "typescript": "1.6.2"
+  }
+}
